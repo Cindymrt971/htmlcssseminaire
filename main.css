@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+body {
+    background-color: rgb(255, 247, 235);
+}
+
+.blue-background {
+    background-color: cornflowerblue;
+}
+
+p {
+    font-family: "alkatra", sans-serif
+}
+
+p {
+    font-weight: bold;
+}
+
+.border-black {
+    border: 5px solid black
+}
+
+.rounded {
+
+    border-radius: 50px;
+}
+
+.shadow {
+    box-shadow: 58px 60PX 5px rgba(rgba(0, 0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), alpha);
+
+}
+
+.position {
+    width: 1900PX;
+    height: 620px;
+    margin: 50px;
+    padding: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(122, 164, 227);
+    
+}
+
+.boxes {
+    width: 400PX;
+    height: 400px;
+    background-color: rgb(206, 214, 226);
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 170, 206);
+
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(151, 151, 208);
+
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 168, 216);
+
+}
+
+.position {
+    width: 1100PX;
+    height: 600px;
+    margin: 50px;
+    padding: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 5px purple solid;
+    padding: 0px 50px 0px 50px;
+    background-image: url(https://images.unsplash.com/photo-1609171712489-45b6ba7051a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=80);
+    background-size: cover;
+
+}
